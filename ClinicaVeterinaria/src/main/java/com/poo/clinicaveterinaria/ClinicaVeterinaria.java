@@ -1,16 +1,14 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.poo.clinicaveterinaria;
 
-/**
- *
- * @author masdp
- */
+import com.poo.clinicaveterinaria.controlador.ClinicaController;
+
 public class ClinicaVeterinaria {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ClinicaController controlador = new ClinicaController();
+        controlador.iniciarSistema();
     }
 }
